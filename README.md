@@ -1,10 +1,6 @@
-processing-upload-gif
-october 11 2013
---
+# Processing
 
-# intro	
-
-# processing.org
+## processing.org
 	http://processing.org	
 	
 ## make gifs from image sequences
@@ -12,13 +8,13 @@ october 11 2013
 	http://www.nyctergatis.com/gifbuilder/
 	http://blog.iharder.net/2009/10/22/gif-create-animated-gifs-with-mac-os-x-preview-app/
 
-# gif format
+## the gif format
 	history
 	timing per frame, framecount, etc
 	repeating animation
 	repetition (loops)
 
-# animation concepts
+## animation concepts
 	1d, 2d, 3d
 	iteration
 	orientation
@@ -33,31 +29,29 @@ october 11 2013
 		http://25.media.tumblr.com/e979028f3089af86cdc94d0e5698e160/tumblr_mg4flsm5u61qc0s10o1_r1_500.gif
 		http://31.media.tumblr.com/9f5e6c028fa50022452ac45e77dda309/tumblr_met8epao4x1qc0s10o1_500.gif
 
-# coding resources
+## coding resources
 	http://processing.org
 		/reference/
 		/tutorials/
 	http://www.generative-gestaltung.de/code
 
-# code by disection and tweaking
+## code by disection and tweaking
 	notes, copy/paste, links
 	learn by tweaking out and saving code
 	comments
 	number fudging
 	int, float, bool
 
-# coding with the processing api
+## coding with the processing api
 	setup, draw, points, lines, fill/stroke, loops
 
-# saving as gif
+## saving as gif
 	how to manage frame counts
 	when to save frame
 	starting and ending a frame save
 
-# code techniques
+## code techniques
 	logic and current frame
 	modulous %
 	loops
 	oscillators
-
-
