@@ -8,22 +8,6 @@ It is a supportive community engaged in teaching, sharing, and learning.
 The language is based on the JAVA, and retains many similarities. 
 The Processing software is free and open source, and runs on the Mac, Windows, and GNU/Linux platforms.
 
-## GIF
-
-## Characteristics of the GIF Format
-### History
-- Created by CompuServe in 1987
-- *FACT* The creators of the format pronounced GIF as "Jif". The intended pronunciation deliberately echoes the American peanut butter brand, and CompuServe employees would often say "Choosy developers choose GIF", spoofing this brand's television commercials. (I personally pronounce GIF with a hard G, even though it's "wrong" according to the creators).
-
-#### GIF Features
-- Sequences of Frames with unique time-lengths per frame
-- Animations can loop (or not)
-- Each frame can have its own 256 color pallete
-- Lossless Format (Meaning no artifacts like JPEG), great for hard-edge graphics
-- *Caveat*: GIF's with lots of frames can have a cumbersome filesize (multiple MB's)
-
-## Coding
-
 ### Learning by Disection, Tweaking, and Searching
 - Keep notes, copy/paste, save links, make a mess
 - learn by tweaking out and saving code of examples you find interesting
@@ -55,6 +39,20 @@ The Processing software is free and open source, and runs on the Mac, Windows, a
 
 ### Output
 - [saveFrame()](http://processing.org/reference/saveFrame_.html)
+
+## GIF
+
+## Characteristics of the GIF Format
+### History
+- Created by CompuServe in 1987
+- *FACT* The creators of the format pronounced GIF as "Jif". The intended pronunciation deliberately echoes the American peanut butter brand, and CompuServe employees would often say "Choosy developers choose GIF", spoofing this brand's television commercials. (I personally pronounce GIF with a hard G, even though it's "wrong" according to the creators).
+
+#### GIF Features
+- Sequences of Frames with unique time-lengths per frame
+- Animations can loop (or not)
+- Each frame can have its own 256 color pallete
+- Lossless Format (Meaning no artifacts like JPEG), great for hard-edge graphics
+- *Caveat*: GIF's with lots of frames can have a cumbersome filesize (multiple MB's)
 
 ### GIF Creation
 - https://github.com/kohler/gifsicle
