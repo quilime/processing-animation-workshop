@@ -1,57 +1,67 @@
-# Processing
+# Animation w/ Processing
 
-## processing.org
-	http://processing.org	
-	
-## make gifs from image sequences
-	https://github.com/kohler/gifsicle
-	http://www.nyctergatis.com/gifbuilder/
-	http://blog.iharder.net/2009/10/22/gif-create-animated-gifs-with-mac-os-x-preview-app/
+## Processing.org
+http://processing.org
 
-## the gif format
-	history
-	timing per frame, framecount, etc
-	repeating animation
-	repetition (loops)
+Processing is a programming language developed for and by artists. 
+It is a supportive community engaged in teaching, sharing, and learning.
+The language is based on the JAVA, and retains many similarities. 
+The Processing software is free and open source, and runs on the Mac, Windows, and GNU/Linux platforms.
 
-## animation concepts
-	1d, 2d, 3d
-	iteration
-	orientation
-	endless pattern movement (repeat tilings)
-	endless rotation
-		http://24.media.tumblr.com/4d1dae178ccd6b178f862c9661bb4080/tumblr_mkt09rMyry1qzt4vjo1_500.gif
-		http://25.media.tumblr.com/f861493a296f3b482ff0cad467cfdbfa/tumblr_mjvtykmztK1qzt4vjo1_r4_500.gif
-		http://25.media.tumblr.com/43e6a6b1b4bc5967e8f2b23c61882d38/tumblr_mhtrteWvtV1qzt4vjo1_500.gif
-		http://25.media.tumblr.com/49bd5b09b34e891af0e821d731070beb/tumblr_mfr1o3deCT1qzt4vjo1_500.gif
-		http://24.media.tumblr.com/tumblr_medpf25RYG1qzt4vjo1_500.gif
-		http://31.media.tumblr.com/tumblr_m8ejztnqJi1qzt4vjo1_500.gif
-		http://25.media.tumblr.com/e979028f3089af86cdc94d0e5698e160/tumblr_mg4flsm5u61qc0s10o1_r1_500.gif
-		http://31.media.tumblr.com/9f5e6c028fa50022452ac45e77dda309/tumblr_met8epao4x1qc0s10o1_500.gif
+## GIF
 
-## coding resources
-	http://processing.org
-		/reference/
-		/tutorials/
-	http://www.generative-gestaltung.de/code
+## Characteristics of the GIF Format
+### History
+- Created by CompuServe in 1987
+- *FACT* The creators of the format pronounced GIF as "Jif". The intended pronunciation deliberately echoes the American peanut butter brand, and CompuServe employees would often say "Choosy developers choose GIF", spoofing this brand's television commercials. (I personally pronounce GIF with a hard G, even though it's "wrong" according to the creators).
 
-## code by disection and tweaking
-	notes, copy/paste, links
-	learn by tweaking out and saving code
-	comments
-	number fudging
-	int, float, bool
+#### GIF Features
+- Sequences of Frames with unique time-lengths per frame
+- Animations can loop (or not)
+- Each frame can have its own 256 color pallete
+- Lossless Format (Meaning no artifacts like JPEG), great for hard-edge graphics
+- *Caveat*: GIF's with lots of frames can have a cumbersome filesize (multiple MB's)
 
-## coding with the processing api
-	setup, draw, points, lines, fill/stroke, loops
+### Learning to Code Graphics by Disection, Tweaking, and Searching
+- Keep notes, copy/paste, save links, make a mess
+- learn by tweaking out and saving code of examples you find interesting
+- Read code, read comments, ask questions
+- Number fudging. Change and re-load.
 
-## saving as gif
-	how to manage frame counts
-	when to save frame
-	starting and ending a frame save
+### Processing Resources
+- [Processing Tutorials](http://processing.org/tutorials/)
+- [Processing Reference](http://processing.org/reference/)
+- [Generative Design](http://www.generative-gestaltung.de/code)
 
-## code techniques
-	logic and current frame
-	modulous %
-	loops
-	oscillators
+### Graphics
+- [setup()](http://processing.org/reference/setup_.html), [draw()](http://processing.org/reference/draw_.html) 
+- [background()](http://processing.org/reference/background_.html) 
+- [point()](http://processing.org/reference/point_.html), [line()](http://processing.org/reference/line_.html), [rect()](http://processing.org/reference/rect_.html), [triangle()](http://processing.org/reference/triangle_.html), [shape()](http://processing.org/reference/beginShape_.html)
+- [fill()](http://processing.org/reference/fill_.html), [noFill()](http://processing.org/reference/noFill_.html)
+- [stroke()](http://processing.org/reference/stroke_.html), [strokeWeight()](http://processing.org/reference/strokeWeight_.html)
+
+## Animation Concepts for making looping Sequences
+- Iteration
+- Orientation
+- Endless transformation and repetition
+
+## Concepts and Techniques
+- Logic [if()](http://processing.org/reference/if.html)
+- Orientation [atan2()](http://processing.org/reference/atan2_.html)
+- Oscillators [sin()](http://processing.org/reference/sin_.html), [cos()](http://processing.org/reference/cos_.html)
+- Iteration [for()](http://processing.org/reference/for.html), [while()](http://processing.org/reference/while.html)
+- [loop()](http://processing.org/reference/loop_.html)
+- [modulo (%)](http://processing.org/reference/modulo.html)
+- [map()](http://processing.org/reference/map_.html)
+- [constrain()](http://processing.org/reference/constrain_.html)
+- [lerp()](http://processing.org/reference/lerp_.html)
+
+### Output
+- [saveFrame()](http://processing.org/reference/saveFrame_.html)
+
+### GIF Creation
+- https://github.com/kohler/gifsicle
+- http://www.nyctergatis.com/gifbuilder/
+- http://blog.iharder.net/2009/10/22/gif-create-animated-gifs-with-mac-os-x-preview-app/
+
+
