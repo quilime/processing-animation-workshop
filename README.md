@@ -31,9 +31,10 @@ The Processing software is free and open source, and runs on the Mac, Windows, a
 - Number fudging. Change and re-load.
 
 ### Processing Resources
-- [Processing Tutorials](http://processing.org/tutorials/)
-- [Processing Reference](http://processing.org/reference/)
-- [Generative Design](http://www.generative-gestaltung.de/code)
+- [Examples](http://processing.org/examples/)
+- [Tutorials](http://processing.org/tutorials/)
+- [Reference](http://processing.org/reference/)
+- [Generative Design (Generative Gestaltung)](http://www.generative-gestaltung.de/code)
 
 ### Basics
 - Variables, Data, Input
