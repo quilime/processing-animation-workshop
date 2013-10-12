@@ -22,7 +22,9 @@ The Processing software is free and open source, and runs on the Mac, Windows, a
 - Lossless Format (Meaning no artifacts like JPEG), great for hard-edge graphics
 - *Caveat*: GIF's with lots of frames can have a cumbersome filesize (multiple MB's)
 
-### Learning to Code Graphics by Disection, Tweaking, and Searching
+## Coding
+
+### Learning by Disection, Tweaking, and Searching
 - Keep notes, copy/paste, save links, make a mess
 - learn by tweaking out and saving code of examples you find interesting
 - Read code, read comments, ask questions
@@ -33,6 +35,9 @@ The Processing software is free and open source, and runs on the Mac, Windows, a
 - [Processing Reference](http://processing.org/reference/)
 - [Generative Design](http://www.generative-gestaltung.de/code)
 
+### Basics
+- Variables, Data, Input
+
 ### Graphics
 - [setup()](http://processing.org/reference/setup_.html), [draw()](http://processing.org/reference/draw_.html) 
 - [background()](http://processing.org/reference/background_.html) 
@@ -40,21 +45,12 @@ The Processing software is free and open source, and runs on the Mac, Windows, a
 - [fill()](http://processing.org/reference/fill_.html), [noFill()](http://processing.org/reference/noFill_.html)
 - [stroke()](http://processing.org/reference/stroke_.html), [strokeWeight()](http://processing.org/reference/strokeWeight_.html)
 
-## Animation Concepts for making looping Sequences
-- Iteration
-- Orientation
-- Endless transformation and repetition
-
-## Concepts and Techniques
-- Logic [if()](http://processing.org/reference/if.html)
+### Code Concepts and Techniques for Animation
+- Logic [if()](http://processing.org/reference/if.html), [modulo (%)](http://processing.org/reference/modulo.html)
 - Orientation [atan2()](http://processing.org/reference/atan2_.html)
-- Oscillators [sin()](http://processing.org/reference/sin_.html), [cos()](http://processing.org/reference/cos_.html)
+- Oscillation [sin()](http://processing.org/reference/sin_.html), [cos()](http://processing.org/reference/cos_.html)
 - Iteration [for()](http://processing.org/reference/for.html), [while()](http://processing.org/reference/while.html)
-- [loop()](http://processing.org/reference/loop_.html)
-- [modulo (%)](http://processing.org/reference/modulo.html)
-- [map()](http://processing.org/reference/map_.html)
-- [constrain()](http://processing.org/reference/constrain_.html)
-- [lerp()](http://processing.org/reference/lerp_.html)
+- Value Transformation [map()](http://processing.org/reference/map_.html), [constrain()](http://processing.org/reference/constrain_.html), [lerp()](http://processing.org/reference/lerp_.html), [dist()](http://processing.org/reference/dist_.html)
 
 ### Output
 - [saveFrame()](http://processing.org/reference/saveFrame_.html)
