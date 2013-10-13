@@ -59,4 +59,6 @@ The Processing software is free and open source, and runs on the Mac, Windows, a
 - http://www.nyctergatis.com/gifbuilder/
 - http://blog.iharder.net/2009/10/22/gif-create-animated-gifs-with-mac-os-x-preview-app/
 
+## Reference
+- [Worms](http://media.quilime.com/?p=src/processing/vector_worms/)
 
