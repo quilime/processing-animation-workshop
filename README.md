@@ -1,7 +1,11 @@
 # Animation w/ Processing
 
+Oct 12 2013
+
+
 ## Processing.org
 http://processing.org
+
 
 Processing is a programming language developed for and by artists. 
 It is a supportive community engaged in teaching, sharing, and learning.
